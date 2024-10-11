@@ -3,7 +3,7 @@ Classic RVC WebUI - ddPn08 version：Repository for the RVC v2 model of Retrieva
 （古典的なだだっこぱんださん版RVC WebUI：ddPn08 - RVC v2モデル対応版RVC WebUIをRunPodで使うためのリポジトリです。）
 <br><br><br>
 【Release Date - 公開日】<br>
-October 12, 2024：Repository in use: May 2023 edition<br>
+October 12, 2024：Repository in use: October 2024 edition<br>
 2024年10月12日（使用中のリポジトリ：2024年10月版）<br><br>
 【Last Updated - 最終更新】<br>
 October 12, 2024<br>
