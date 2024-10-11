@@ -2,6 +2,26 @@ MIT License
 
 Copyright (c) 2024 ChildProgrammer
 
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+The following is an archive of programs in the GitHib repository as of May, 2023.
+
+ddPn08/rvc-webui
+https://github.com/ddPn08/rvc-webui
+
+Here are the changes by ChildProgrammer
+modules/tabs/traininig.py ：
+Row 303：maximum=4 → maximum=1000（Speaker ID）
+Row 372：maximum=100 → maximum=1000（save_every_epoch）
+
+webui.sh
+Row 46：can_run_as_root=0 → can_run_as_root=1
+Row 81：
+export TORCH_COMMAND="pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/rocm5.2"
+→
+export TORCH_COMMAND="pip3 install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118"
+
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
