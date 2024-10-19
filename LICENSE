@@ -13,6 +13,12 @@ modules/tabs/traininig.py ：
 Row 303：maximum=4 → maximum=1000（Speaker ID）
 Row 372：maximum=100 → maximum=1000（save_every_epoch）
 
+lauch.py
+Row 99：
+export TORCH_COMMAND="pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu118"
+→
+export TORCH_COMMAND="pip3 install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --extra-index-url https://download.pytorch.org/whl/cu118"
+
 webui.sh：
 Row 46：can_run_as_root=0 → can_run_as_root=1
 Row 81：
