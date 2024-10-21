@@ -13,10 +13,15 @@ modules/tabs/traininig.py ：
 Row 303：maximum=4 → maximum=1000（Speaker ID）
 Row 372：maximum=100 → maximum=1000（save_every_epoch）
 
+modules/tabs/training.py：
+Row 312：choices=["v1", "v2"] → choices=["v2"]（Model version）
+Row 317：choices=["32k", "40k", "48k"] → choices=["40k"]（Target sampling rate）
+Row 333：choices=["256", "768"] → choices=["768"]
+
 requirements/main.txt：
 Fine-tuned dependencies.
 
-lauch.py
+lauch.py：
 Row 99：
 export TORCH_COMMAND="pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu118"
 →
