@@ -13,6 +13,9 @@ modules/tabs/traininig.py ：
 Row 303：maximum=4 → maximum=1000（Speaker ID）
 Row 372：maximum=100 → maximum=1000（save_every_epoch）
 
+requirements/main.txt：
+Fine-tuned dependencies.
+
 lauch.py
 Row 99：
 export TORCH_COMMAND="pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu118"
