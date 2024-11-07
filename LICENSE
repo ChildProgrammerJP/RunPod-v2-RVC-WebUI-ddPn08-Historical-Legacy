@@ -15,7 +15,7 @@ Row 372：maximum=100 → maximum=1000（save_every_epoch）
 
 modules/tabs/training.py：
 Row 312：choices=["v1", "v2"] → choices=["v2"]（Model version）
-Row 317：choices=["32k", "40k", "48k"] → choices=["40k"]（Target sampling rate）
+Row 317：choices=["32k", "40k", "48k"] → choices=["40k", "48k"]（Target sampling rate）
 Row 333：choices=["256", "768"] → choices=["768"]
 
 requirements/main.txt：
