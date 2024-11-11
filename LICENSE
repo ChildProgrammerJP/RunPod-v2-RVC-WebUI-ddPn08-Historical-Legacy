@@ -18,6 +18,9 @@ Row 312：choices=["v1", "v2"] → choices=["v2"]（Model version）
 Row 317：choices=["32k", "40k", "48k"] → choices=["40k", "48k"]（Target sampling rate）
 Row 333：choices=["256", "768"] → choices=["768"]
 
+modules/tabs/merge.py ：
+Row 270：maximum=2333 → maximum=1000（Speaker ID）
+
 requirements/main.txt：
 Fine-tuned dependencies.
 
