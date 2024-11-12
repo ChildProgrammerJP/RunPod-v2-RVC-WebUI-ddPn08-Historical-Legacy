@@ -13,10 +13,12 @@ modules/tabs/traininig.py ：
 Row 303：maximum=4 → maximum=1000（Speaker ID）
 Row 372：maximum=100 → maximum=1000（save_every_epoch）
 
-modules/tabs/training.py：
 Row 312：choices=["v1", "v2"] → choices=["v2"]（Model version）
 Row 317：choices=["32k", "40k", "48k"] → choices=["40k", "48k"]（Target sampling rate）
 Row 333：choices=["256", "768"] → choices=["768"]
+
+Row 394：value="file is not prepared" → value="/workspace/rvc-webui/models/pretrained/augment/vctk_multispeaker_jphubert_augment_f048k768.pth"
+Row 396：value="file is not prepared" → value="/workspace/rvc-webui/models/pretrained/augment/speaker_info.npy"
 
 modules/tabs/merge.py ：
 Row 270：maximum=2333 → maximum=1000（Speaker ID）
