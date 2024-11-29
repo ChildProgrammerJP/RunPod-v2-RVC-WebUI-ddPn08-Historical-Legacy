@@ -15,7 +15,8 @@ Row 372：maximum=100 → maximum=1000（save_every_epoch）
 
 Row 312：choices=["v1", "v2"] → choices=["v2"]（Model version）
 Row 317：choices=["32k", "40k", "48k"] → choices=["40k", "48k"]（Target sampling rate）
-Row 333：choices=["256", "768"] → choices=["768"]
+Row 322：choices= ["Yes", "No"] → choices=["Yes"]（f0 Model）
+Row 333：choices=["256", "768"] → choices=["768"]（Embedding channels）
 
 Row 394：value="file is not prepared" → value="/workspace/rvc-webui/models/pretrained/augment/vctk_multispeaker_jphubert_augment_f048k768.pth"
 Row 396：value="file is not prepared" → value="/workspace/rvc-webui/models/pretrained/augment/speaker_info.npy"
